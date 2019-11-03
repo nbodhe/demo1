@@ -16,7 +16,7 @@ import com.ntech.demo1.model.*;
 public class EmployeeController {
 	@RequestMapping(value="/")
 	public String display() {
-		return "Hello World this updated application";
+		return "Hello World this second update";
 	}
 	
 	private static Map<String, Employee> empRepo= new HashMap<String, Employee>();
